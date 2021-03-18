@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let test = "https://razorpay.com/demo/"
+        let test = "http://rzp-callback.herokuapp.com/payment-callback"
         let testURL = URL.init(string: test)!
         let request = URLRequest(url: testURL)
         self.webKit.load(request)
